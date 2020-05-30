@@ -8,25 +8,19 @@
 
 .py-1 {
   padding: 1rem 0; }
-
 .py-2 {
   padding: 2rem 0; }
-
 .py-3 {
   padding: 3rem 0; }
-
 .py-4 {
   padding: 4rem 0; }
 
 .py-1 {
   margin: 1rem 0; }
-
 .py-2 {
   margin: 2rem 0; }
-
 .py-3 {
   margin: 3rem 0; }
-
 .py-4 {
   margin: 4rem 0; }
 
@@ -218,7 +212,6 @@ img {
       margin-top: 0.4rem; }
     #home-a .technologies h3 {
       color: #D3D2D1; }
-
 #home-b {
   background: #D3D2D1;
   margin: 0;
@@ -231,7 +224,6 @@ img {
     color: #333;
     margin-bottom: 2rem;
     text-align: center; }
-
 #home-c {
   background: #333;
   margin: 0;
@@ -266,6 +258,7 @@ img {
     #home-c .text-fields .message-input::placeholder {
       padding-top: 0.5rem; }
   #home-c .submit-btn {
+    margin-top: 2rem;
     display: inline-block;
     padding: 0.8rem;
     border-radius: 5px;
@@ -294,10 +287,12 @@ img {
       padding: 1rem 0.6rem; }
     #main-nav h2 {
       font-size: 1rem; }
+
   #header-home .header-content h1 {
     font-size: 2.6rem; }
   #header-home .header-content .lead {
     font-size: 1.4rem; }
+
   #home-b .projects {
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
@@ -305,7 +300,6 @@ img {
     #home-b .projects .project {
       width: 250px;
       margin-top: 2rem; } }
-
 @media (max-width: 500px) {
   #main-nav {
     height: 35px; }
@@ -323,10 +317,12 @@ img {
         #main-nav ul li .current {
           padding-left: 0;
           padding-right: 0; }
+
   #header-home .header-content h1 {
     font-size: 2.6rem; }
   #header-home .header-content .lead {
     font-size: 1.4rem; }
+
   #home-a .technologies {
     grid-template-columns: repeat(2, 1fr); }
   #home-b .projects {
@@ -338,3 +334,5 @@ img {
     margin-right: 2rem; }
   #home-c .text-fields {
     width: 320px; } }
+
+/*# sourceMappingURL=main.css.map */
