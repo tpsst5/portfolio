@@ -175,6 +175,14 @@
       <h2 class="section-title">Get in touch</h2>
       <div class="bottom-line"></div>
       <p class="lead">Available for contractual work related to front-end development or just say hi.</p>
+
+      <!-- Recaptcha Theme -->
+      <script type="text/javascript">
+        var RecaptchaOptions = {
+          theme: 'clean'
+        };
+      </script>
+
       <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
         <div class="text-fields">
           <p class="form-label">NAME</p>
@@ -184,8 +192,8 @@
           <p class="form-label">MESSAGE</p>
           <textarea name="message" class="text-input message-input" placeholder="Your message"
             name="message"></textarea>
-          <div>
-            <div class="recaptcha" data-netlify-recaptcha="true"></div>
+          <div style="display: inline-block">
+            <div data-netlify-recaptcha="true"></div>
           </div>
         </div>
         <button type="submit" class="submit-btn">Send</button>
